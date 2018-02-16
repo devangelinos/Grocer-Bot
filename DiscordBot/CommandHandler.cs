@@ -34,6 +34,7 @@ namespace DiscordBot
                 if (!result.IsSuccess && result.Error != CommandError.UnknownCommand)
                 {
                     Console.WriteLine(result.ErrorReason);
+                  
                 }
             }
         }
